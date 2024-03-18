@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    cursor: auto;
+    background: #222831;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cursor{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: #EEEEEE;
+    position: absolute;
+    mix-blend-mode: difference;
+    transition: all 100ms;
+}
+
+h1{
+    font-size: 200px;
+    
+    color: #fff;
+}
